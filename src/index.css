@@ -1,0 +1,19 @@
+body {
+    background-color: #EAEEEE;
+}
+
+.container-size {
+    min-width: 45vw;
+    min-height: 30vh;
+}
+
+@media (max-width: 600px) {
+    .container-size {
+        width: 100vw;
+       
+    }
+  }
+.button-copy:hover {
+    cursor: pointer;
+}
+
